@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+.btn-purple{
+    @apply bg-testpurple text-white;
+}
+
+.btn-white{
+    @apply bg-test-white;
+}
+
+.btn-black{
+    @apply bg-black text-white;
+}
+
+.bio-image{
+    margin-left: 20px;
+    margin-top:25px;
+width: 150px;
+border-radius: 125px;
+}
+
+.bio-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.Bio-Card{
+    width:200px;
+    height:300px;
+    box-shadow: 5px 5px 20px rgb(199, 196, 196);
+    margin:10px;
+}
+
+.Bio-Card:hover{
+    background-color: antiquewhite;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    justify-content: center;
+  }
